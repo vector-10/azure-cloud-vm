@@ -1,0 +1,20 @@
+{
+  "name": "azure-cloud-vm",
+  "version": "1.0.0",
+  "description": "Contains Code that works with Node.js client SDK to send and receives cloud events for cloud messaging services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/eventgrid": "^5.4.0",
+    "@azure/service-bus": "^7.9.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
